@@ -58,7 +58,7 @@ export default function Selector( props: Props ) {
 	const unlocked = getUnlockedGames();
 	const sorted = reverse( sortBy( unlocked, game => game.number ) );
 	const today = sorted[0];
-	const historical = sorted.slice( 1 );
+	//const historical = sorted.slice( 1 );
 
 	return (
 		<div className="Selector">
